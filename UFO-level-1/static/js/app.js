@@ -44,3 +44,13 @@ function runEnter() {
     tbody.html("");
 
     
+    //for loop to find the value and to append each value
+    filteredData.forEach((ufo) => {
+        var row = tbody.append("tr");
+        Object.entries(ufo).forEach(([key, value]) => {
+        var cell = row.append("td");
+        cell.text(value);
+        });
+    });
+
+};
