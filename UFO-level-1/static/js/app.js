@@ -37,4 +37,10 @@ function runEnter() {
     // filter the table 
     var filteredData = ufoData.filter(u => u.datetime === inputValue);
 
+    // selecting the table body
+    var tbody = d3.select("tbody");
+
+    //clearing the table body
+    tbody.html("");
+
     
