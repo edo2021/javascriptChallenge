@@ -3,7 +3,7 @@ var tableData = data;
 
 // YOUR CODE HERE!
 // assigning the data to a variable and selecting the button
-var ufoData = data;
+//var ufoData = data;
 
 
 var button = d3.select("#filter-btn");
