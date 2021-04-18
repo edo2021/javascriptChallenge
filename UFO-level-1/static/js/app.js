@@ -28,3 +28,13 @@ function runEnter() {
 
     // Prevent the page from refreshing
     d3.event.preventDefault();
+
+    //  get the raw HTML node
+    var inputElement = d3.select("#datetime");
+
+    var inputValue = inputElement.property("value");
+
+    // filter the table 
+    var filteredData = ufoData.filter(u => u.datetime === inputValue);
+
+    
