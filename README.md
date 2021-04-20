@@ -33,3 +33,19 @@
 <li>Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input<li>
 
 </ul>
+
+<h1>Level 2: Multiple Search Categories</h1>
+
+<ul>
+  <li>Complete all of Level 1 criteria.</li>
+
+
+<li>Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:</li>
+<ol>
+<li>date/time</li>
+<li>city</li>
+<li>state</i>
+<li>country</i>
+<li>shape</li>
+
+</ul>
