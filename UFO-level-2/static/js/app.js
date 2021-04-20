@@ -1,13 +1,6 @@
 // from data.js
 var tableData = data;
 
-//var ufoData = data;
-
-// // select the button
-// var button = d3.select("#filter-btn");
-
-// // select the form
-// var form = d3.select("#form").node().value;
 
 // select all of the filters and run the function runenter on "change"
 d3.selectAll(".filter").on("change", runEnter);
