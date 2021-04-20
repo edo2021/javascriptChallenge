@@ -1,7 +1,7 @@
 // from data.js
-//var tableData = data;
+var tableData = data;
 
-var ufoData = data;
+//var ufoData = data;
 
 // // select the button
 // var button = d3.select("#filter-btn");
