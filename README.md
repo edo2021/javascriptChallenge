@@ -18,7 +18,9 @@
 </ol>
 
 <h1>Level 1: Automatic Table and Date Search </h1>
+
 <ul>
+  
  <li> <Create a basic HTML web page or use the index.html file provided (we recommend building your own custom page!).</li>
 
 
