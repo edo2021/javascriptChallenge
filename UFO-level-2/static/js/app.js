@@ -33,10 +33,10 @@ function runEnter() {
     var shapeValue = inputShape.property("value");
 
 
-    // assign data to the variable filtereddata
-    var filteredData = ufoData;
+    // assign data 
+    var filteredData = tableData;
 
-    // filter the data by each value if the input matches a value in the table
+    
     if (inputValue) {
 
         filteredData = filteredData.filter(u => u.datetime === inputValue);
@@ -65,11 +65,10 @@ function runEnter() {
     // select the table body
     var tbody = d3.select("tbody");
 
-    // clear the table after each change
+    // clear the table 
     tbody.html("");
 
-    // append the data to the table
-    // create a for loop that goes through each dictionary to find the key and value and then append the value for each key
+    //  for loop 
     filteredData.forEach((ufo) => {
         var row = tbody.append("tr");
         Object.entries(ufo).forEach(([key, value]) => {
