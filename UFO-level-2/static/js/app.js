@@ -2,16 +2,16 @@
 var tableData = data;
 
 
-// select all of the filters and run the function runenter on "change"
+// select the filters 
 d3.selectAll(".filter").on("change", runEnter);
 
-// complete the event handler function for form
+// event handler 
 function runEnter() {
 
     // Prevent the page from refreshing
     d3.event.preventDefault();
 
-    // Select the input element and get the raw HTML node
+    // Select the input element 
     var inputElement = d3.select("#datetime");
 
     var inputValue = inputElement.property("value");
